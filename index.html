@@ -7,146 +7,53 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<!-- Bootstrap CDN -->
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/animations.css">
+
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
-	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
-
-	<!-- Link a mis estilos -->
-	<link rel="stylesheet" href="./css/mycss.css">
 
 </head>
 
 <body>
-			</section>
+	<header>
 
-			<header class="page_header header_white table_section columns_padding_0 toggler-xs-right">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-3 col-sm-5">
-							<a href="./" class="logo">
-								Psicoterapia Online
-							</a>
-							
-						</div>
-						<div class="col-md-6 col-sm-2 text-center">
-							<!-- main nav start -->
-							<nav class="mainmenu_wrapper">
-								<ul class="mainmenu nav sf-menu">
-									<li>
-										<a href="#servicios">Mis servicios</a>
-									</li>
-
-									<li>
-										<a href="#sobremi">Sobre mi</a>
-									</li>
-									<li>
-										<a href="#relatos">Relatos</a>
-									</li>
-									<li>
-										<a href="#preguntas">Preguntas Frecuentes</a>
-									</li>
-									<li>
-										<a href="#reserva">Reserva tu Turno Online</a>
-									</li>
-
-								</ul>
-							</nav>
-							<!-- eof main nav -->
-							<span class="toggle_menu hidden-xs">
-								<span></span>
-							</span>
-						</div>
-						<div class="col-md-3 col-sm-5 text-right hidden-xs lightgreylinks">
-							<div class="page_social_icons divided_content">
-								<span>
-									<a class="social-icon soc-facebook" href="#" title="Facebook"></a>
-								</span>
-								<span>
-									<a class="social-icon soc-twitter" href="#" title="Twitter"></a>
-								</span>
-								<span>
-									<a class="social-icon soc-google" href="#" title="Google"></a>
-								</span>
-								<span>
-									<a class="social-icon soc-linkedin" href="#" title="LinkedIn"></a>
-								</span>
-							</div>
-						</div>
+				  <a class="navbar-brand" href="#">Psicoterapia Online</a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link" href="#servicios">Mis servicios</a>
+						<a class="nav-link" href="#sobremi">Sobre mi</a>
+						<a class="nav-link" href="#relatos">Relatos</a>
+						<a class="nav-link" href="#preguntas">Preguntas Frecuentes</a>
+						<a class="nav-link" href="#reserva">Reserva tu Turno Online</a>
 					</div>
+				  </div>
 				</div>
-			</header>
+			</nav>
+	</header>
 
-			<section class="intro_section page_mainslider ds">
-				<div class="flexslider">
-					<ul class="slides">
-
-						<li>
-							<img src="images/slide01.jpg" alt="">
-							<div class="container">
-								<div class="row">
-									<div class="col-sm-12 text-center">
-										<div class="slide_description_wrapper">
-											<div class="slide_description">
-												<div class="intro-layer" data-animation="fadeInRight">
-													<h3>
-														Rosaura Paradiso
-													</h3>
-												</div>
-												<div class="intro-layer" data-animation="fadeInLeft">
-													<p class="small-text grey">
-														Licenciada en Psicologia
-													</p>
-												</div>
-											</div>
-											<!-- eof .slide_description -->
-										</div>
-										<!-- eof .slide_description_wrapper -->
-									</div>
-									<!-- eof .col-* -->
-								</div>
-								<!-- eof .row -->
-							</div>
-							<!-- eof .container -->
-						</li>
-
-						<li>
-							<img src="images/slide01.jpg" alt="">
-							<div class="container">
-								<div class="row">
-									<div class="col-sm-12 text-center">
-										<div class="slide_description_wrapper">
-											<div class="slide_description">
-												<div class="intro-layer" data-animation="fadeInRight">
-													<h3>
-														Rita Solomou
-													</h3>
-												</div>
-												<div class="intro-layer" data-animation="fadeInLeft">
-													<p class="small-text grey">
-														Premium HTML Template
-													</p>
-												</div>
-											</div>
-											<!-- eof .slide_description -->
-										</div>
-										<!-- eof .slide_description_wrapper -->
-									</div>
-									<!-- eof .col-* -->
-								</div>
-								<!-- eof .row -->
-							</div>
-							<!-- eof .container -->
-						</li>
-
-					</ul>
+			<section>
+				<div class="container">
+					<img src="images/slide01.jpg" alt="">
+					<div class="intro-layer" data-animation="fadeInRight">
+						<h3>
+							Rosaura Paradiso
+						</h3>
+					</div>
+					<div class="intro-layer" data-animation="fadeInLeft">
+						<p class="small-text grey">
+							Licenciada en Psicologia
+						</p>
 				</div>
-				<!-- eof flexslider -->
 			</section>
 
-			<section id="services" class="ls section_padding_top_130 section_padding_bottom_100">
+			<section id="servicios" class="ls section_padding_top_130 section_padding_bottom_100">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
@@ -160,7 +67,7 @@ Las sesiones de Psicoterapia se realizan por zoom, trabajamos con las mismas her
 						</div>
 					</div>
 					<div class="row columns_padding_0 columns_margin_0 fontsize_16">
-						<div class="col-md-3 col-sm-6">
+						<div class="col-md-4 col-sm-6">
 							<div class="with_padding text-center teaser hover_shadow">
 								<img src="images/service-icons/relationship.png" alt="" />
 								<h4>
@@ -172,7 +79,7 @@ Las sesiones de Psicoterapia se realizan por zoom, trabajamos con las mismas her
 								</p>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6">
+						<div class="col-md-4 col-sm-6">
 							<div class="with_padding text-center teaser hover_shadow">
 								<img src="images/service-icons/mental.png" alt="" />
 								<h4>
@@ -183,7 +90,7 @@ Las sesiones de Psicoterapia se realizan por zoom, trabajamos con las mismas her
 								</p>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 clear-sm">
+						<div class="col-md-4 col-sm-6 clear-sm">
 							<div class="with_padding text-center teaser hover_shadow">
 								<img src="images/service-icons/feelings.png" alt="" />
 								<h4>
@@ -194,7 +101,7 @@ Las sesiones de Psicoterapia se realizan por zoom, trabajamos con las mismas her
 								</p>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6">
+						<div class="col-md-4 col-sm-6">
 							<div class="with_padding text-center teaser hover_shadow">
 								<img src="images/service-icons/conflicting.png" alt="" />
 								<h4>
@@ -207,7 +114,7 @@ Las sesiones de Psicoterapia se realizan por zoom, trabajamos con las mismas her
 								</p>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 clear-lg clear-md clear-sm">
+						<div class="col-md-4 col-sm-6 clear-lg clear-md clear-sm">
 							<div class="with_padding text-center teaser hover_shadow">
 								<img src="images/service-icons/meditation.png" alt="" />
 								<h4>
@@ -220,7 +127,7 @@ Las sesiones de Psicoterapia se realizan por zoom, trabajamos con las mismas her
 								</p>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6">
+						<div class="col-md-4 col-sm-6">
 							<div class="with_padding text-center teaser hover_shadow">
 								<img src="images/service-icons/depression.png" alt="" />
 								<h4>
@@ -303,7 +210,7 @@ Soy egresada de la Universidad Nacional de Mar del Plata (Buenos Aires, Argentin
 			</section>
 
 			<section id="faq" class="ls section_padding_top_130 section_padding_bottom_100">
-				<div class="container">
+				<div class="container d-flex justify-content-center">
 					<div class="row">
 						<div class="col-sm-12 text-center">
 							<h2 class="section_header with_icon">Preguntas Frecuentes</h2>
@@ -405,6 +312,91 @@ Soy egresada de la Universidad Nacional de Mar del Plata (Buenos Aires, Argentin
 				</div>
 			</section>
 
+
+			<section>
+				<div class="accordion" id="accordionExample">
+
+					<div class="accordion-item">
+					  	<h2 class="accordion-header" id="headingOne">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								¿Qué tipo de terapia brindas?
+							</button>
+					  	</h2>
+					  	<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								Trabajo desde un abordaje Psicocorporal, actualmente estoy formándome como Psicoterapeuta Corporal desde la Biosíntesis. También utilizó técnicas y herramientas adquiridas en mi formación como Profesora de Yoga.
+							</div>
+					  	</div>
+					</div>
+
+					<div class="accordion-item">
+					  <h2 class="accordion-header" id="headingTwo">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							¿Qué es la Biosíntesis?
+						</button>
+					  </h2>
+					  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							European Wide Committee de la European Association of Psychotherapy (EAP) reconoce a la Biosíntesis como una modalidad científica de psicoterapia.  La Biosíntesis es una terapia de proceso que acepta la manera única del individuo y el espectro de varios caminos de evolución, reconociendo la multidimensionalidad del ser humano.
+						</div>
+					  </div>
+					</div>
+
+					<div class="accordion-item">
+					  <h2 class="accordion-header" id="headingThree">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							¿Cómo se trabaja desde un abordaje Psicocorporal?
+						</button>
+					  </h2>
+					  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							El principal objetivo es sentir el cuerpo e integrarlo a nuestras emociones y procesos mentales. Cada sesión se ajusta a las necesidades particulares de la paciente, cuidando y priorizando su singularidad y manteniendo extrema confidencialidad en todo lo que suceda a lo largo del tratamiento. 
+						</div>
+					  </div>
+					</div>
+
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingThree">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								¿Cuánto duran las sesiones de Psicoterapia Online? ¿Con qué frecuencia son?
+							</button>
+						</h2>
+							<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+								Las sesiones tienen una duración de 45 minutos y recomiendo comenzar con una frecuencia semanal.
+								</div>
+							</div>
+					</div>
+
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingThree">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							¿Cuáles son las formas de pago?
+						</button>
+						</h2>
+						<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								Dentro de Argentina trabajo con transferencia bancaria o MercadoPago. Para el exterior PayPal o Western Union. 
+							</div>
+						</div>
+					</div>
+
+
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingThree">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							¿Qué pasa si no puedo asistir a una sesión?
+						</button>
+						</h2>
+						<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								Siempre intentaremos recuperar dentro de la semana la sesión a la que no puedas asistir. Es necesario avisar con anticipación (mínimo 12 hs antes) ya que si te ausentas sin previo aviso, la sesión debe ser abonada igualmente.
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
 			<section id="appointment" class="ls section_padding_top_130 section_padding_bottom_100">
 				<div class="container">
 					<div class="row">
@@ -422,7 +414,7 @@ Soy egresada de la Universidad Nacional de Mar del Plata (Buenos Aires, Argentin
 										<label for="name">Tu nombre
 											<span class="required">*</span>
 										</label>
-										<input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Your Name">
+										<input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Tu nombre">
 									</div>
 								</div>
 								<div class="col-sm-6">
@@ -430,15 +422,7 @@ Soy egresada de la Universidad Nacional de Mar del Plata (Buenos Aires, Argentin
 										<label for="email">Correo electronico
 											<span class="required">*</span>
 										</label>
-										<input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Email Address">
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="contact-form-subject">
-										<label for="subject">Titulo
-											<span class="required">*</span>
-										</label>
-										<input type="text" aria-required="true" size="30" value="" name="subject" id="subject" class="form-control" placeholder="Subject">
+										<input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Email">
 									</div>
 								</div>
 								<div class="col-sm-6">
@@ -446,129 +430,18 @@ Soy egresada de la Universidad Nacional de Mar del Plata (Buenos Aires, Argentin
 										<label for="phone">Telefono
 											<span class="required">*</span>
 										</label>
-										<input type="text" aria-required="true" size="30" value="" name="phone" id="phone" class="form-control" placeholder="Phone">
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="contact-form-date select-group">
-										<label for="date" class="sr-only">Date
-											<span class="required">*</span>
-										</label>
-										<div class="input-group">
-											<select aria-required="true" id="date" name="date" class="choice empty form-control">
-												<option value="" disabled selected data-default>Date</option>
-												<option value="14.03.2017">14.03.2017</option>
-												<option value="15.03.2017">15.03.2017</option>
-												<option value="16.03.2017">16.03.2017</option>
-												<option value="17.03.2017">17.03.2017</option>
-												<option value="18.03.2017">18.03.2017</option>
-												<option value="19.03.2017">19.03.2017</option>
-												<option value="20.03.2017">20.03.2017</option>
-												<option value="21.03.2017">21.03.2017</option>
-												<option value="22.03.2017">22.03.2017</option>
-												<option value="23.03.2017">23.03.2017</option>
-												<option value="24.03.2017">24.03.2017</option>
-											</select>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="contact-form-time select-group">
-										<label for="time" class="sr-only">Date
-											<span class="required">*</span>
-										</label>
-										<div class="input-group">
-											<select aria-required="true" id="time" name="time" class="choice empty form-control">
-												<option value="" disabled selected data-default>Time</option>
-												<option value="14.03.2017">9:00</option>
-												<option value="15.03.2017">10:00</option>
-												<option value="16.03.2017">11:00</option>
-												<option value="17.03.2017">12:00</option>
-												<option value="18.03.2017">13:00</option>
-												<option value="19.03.2017">14:00</option>
-												<option value="20.03.2017">15:00</option>
-												<option value="21.03.2017">16:00</option>
-												<option value="22.03.2017">17:00</option>
-											</select>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-12">
-									<div class="contact-form-message">
-										<label for="message">Message</label>
-										<textarea aria-required="true" rows="1" cols="45" name="message" id="message" class="form-control" placeholder="Message"></textarea>
+										<input type="text" aria-required="true" size="30" value="" name="phone" id="phone" class="form-control" placeholder="Telefono">
 									</div>
 								</div>
 
 								<div class="col-sm-12">
 
 									<div class="contact-form-submit topmargin_20">
-										<button type="submit" id="contact_form_submit" name="contact_submit" class="theme_button color1 with_shadow">Send message</button>
+										<button type="submit" disabled='disabled' id="contact_form_submit" name="contact_submit" class="theme_button color1 with_shadow">Enviar</button>
 									</div>
 								</div>
 
 							</form>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<footer class="page_footer cs main_color2 table_section section_padding_50 columns_padding_0">
-				<div class="container">
-
-					<div class="row">
-
-						<div class="col-sm-4 col-sm-push-4 text-center">
-							<a href="#	" class="logo big text-shadow">
-								Psicoterapia Online
-							</a>
-						</div>
-
-						<div class="col-sm-4 col-sm-pull-4 text-center text-sm-left text-md-left">
-							<div class="widget widget_nav_menu greylinks">
-
-								<ul class="menu divided_content wide_divider">
-									<li class="">
-										<a href="./">Home</a>
-									</li>
-									<li class="">
-										<a href="about.html">About</a>
-									</li>
-									<li class="">
-										<a href="services.html">Services</a>
-									</li>
-								</ul>
-
-							</div>
-						</div>
-
-						<div class="col-sm-4 text-center text-sm-right text-md-right">
-							<div class="widget widget_nav_menu greylinks">
-
-								<ul class="menu divided_content wide_divider">
-									<li class="">
-										<a href="gallery-regular-3-cols.html">Gallery</a>
-									</li>
-									<li class="">
-										<a href="blog-right.html">Blog</a>
-									</li>
-									<li class="">
-										<a href="contact.html">Contacts</a>
-									</li>
-								</ul>
-
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</footer>
-
-			<section class="cs main_color2 page_copyright section_padding_15">
-				<div class="container with_top_border">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<p class="small-text">&copy; 2017 Psychology and Counseling. All Rights Reserved</p>
 						</div>
 					</div>
 				</div>
@@ -579,9 +452,10 @@ Soy egresada de la Universidad Nacional de Mar del Plata (Buenos Aires, Argentin
 	</div>
 	<!-- eof #canvas -->
 
-	<script src="js/compressed.js"></script>
-	<script src="js/main.js"></script>
 
+	<!-- Bootstrap Scripts -->
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
 </body>
 
